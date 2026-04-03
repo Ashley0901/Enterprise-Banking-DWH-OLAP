@@ -20,8 +20,6 @@ The core of this project is a **Snowflake Schema** designed to minimize data red
 * **Fact Tables:** `hechos_transaccionales`, `hechos_reclamos`, `hechos_fraude`.
 * **Dimensions:** Heavily normalized into granular levels (e.g., *Location* is split into `ciudad` -> `estado` -> `pais`).
 
-![Data Warehouse Snowflake Schema](docs/Data_Warehouse_SnowFlake_Schema.png)
-*(Refer to `docs/Snowflake_Schema_Relational_Model.pdf` for the complete data dictionary).*
 
 ##  Key Features & Implementation
 
