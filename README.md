@@ -2,13 +2,12 @@
 
 ##  Project Overview
 This project presents a comprehensive, end-to-end Data Warehouse architecture designed for a banking institution. The objective is to analyze historical banking data (clients, accounts, transactions, fraud, and claims) to extract actionable business insights such as customer retention risks, transaction profitability, and channel usage trends.
-
-## CSV used for this project:
-https://drive.google.com/drive/folders/1iwyOqfEbT0QiyFCtXbTjUL39TA1GTKkv
-
 The architecture employs a **Dual-Engine approach**:
 1. A strongly normalized **Snowflake Schema** implemented in **PostgreSQL** for structured, relational analytical processing.
 2. A specialized **Columnar Database** implemented in **ClickHouse** (via Docker) to demonstrate high-speed aggregations and big data optimizations for OLAP workloads.
+
+## CSV used for this project:
+https://drive.google.com/drive/folders/1iwyOqfEbT0QiyFCtXbTjUL39TA1GTKkv
 
 ##  Tech Stack & Tools
 * **Core Databases:** PostgreSQL, ClickHouse
